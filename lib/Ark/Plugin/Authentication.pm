@@ -1,9 +1,11 @@
 package Ark::Plugin::Authentication;
+use 5.008001;
 use strict;
 use warnings;
-use Ark::Plugin;
 
 our $VERSION = 0.01;
+
+use Ark::Plugin;
 
 has auth => (
     is      => 'rw',

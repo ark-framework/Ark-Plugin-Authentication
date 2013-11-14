@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Ark plugins for authentications",
    "author" : [
-      "Songmu <y.songmu@gmail.com>"
+      "Daisuke Murase <typester@cpan.org>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v0.9.0, CPAN::Meta::Converter version 2.131560",
@@ -43,15 +43,38 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008005"
+            "Ark" : "0",
+            "LWPx::ParanoidAgent" : "0",
+            "Net::OpenID::Consumer" : "0",
+            "OAuth::Lite" : "0",
+            "perl" : "5.008001"
+         },
+         "suggests" : {
+            "DBIx::Class" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Digest::SHA1" : "0",
+            "Test::More" : "0.98",
+            "Test::Requires" : "0"
          }
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ark-framework/Ark-Plugin-Authentication/issues"
+      },
+      "homepage" : "https://github.com/ark-framework/Ark-Plugin-Authentication",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ark-framework/Ark-Plugin-Authentication.git",
+         "web" : "https://github.com/ark-framework/Ark-Plugin-Authentication"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Songmu <y.songmu@gmail.com>"
+   ]
 }
