@@ -37,7 +37,7 @@ __END__
 
 =head1 NAME
 
-Ark::Plugin::MobileJP - Ark plugins for authentications
+Ark::Plugin::Authentication - Ark plugins for authentications
 
 =head1 SYNOPSIS
 
